@@ -1,6 +1,6 @@
 # IRONSTONE (Data-Oriented Approach for Routing Vehicles To Respond Emergency Events)
 
->IRONSTONE is an approach that analyzes real-time traffic data and generates a graph that represents the streets in a radius (e.g., 10 km) from the emergency event (i.e., e-event). Based on the generated graph, IRONSTONE uses a multi-start random constructive heuristic that schedules vehicles to respond to e-events. In its current version, IRONSTONE uses Tomtom API to estimate the travel time between the points where the vehicles are and the e-events. IRONSTONE also uses historical data to estimate the required time to respond to an e-event. When a specific e-event is responded to, the proposed approach is executed to regenerate the routes considering the new registered events and the traffic conditions. IRONSTONE is designed to minimize the total response time so the objective function minimizes the sum of the times required to respond to each e-event.
+>IRONSTONE is a data-oriented approach that aims at defining vehicle routes for responding to emergency events (e-events) by consuming real-time traffic data. 
 
 <p align="center">
   <img src="Graphical+Abstract.png" style="max-height: 160px"/>
@@ -8,9 +8,7 @@
 
 ## Overview
 
-This repository presents a quick start guide for SAMbA, an extension over Apache Spark, which aims at running black-box native programs that handle raw data files. Furthermore, this engine collects, store, and query provenance and domain-specific data that were manipulated during the execution of scientific applications. With respect to the analytical capabilities, SAMbA provides runtime dataflow analysis based on the provenance traces.
-
-
+This repository presents a quick start guide for IRONSTONE. IRONSTONE is an innovative approach that analyzes real-time traffic data and generates a graph representing the streets within a radius (e.g., 10 km) from the emergency event (i.e., e-event). Based on this graph, IRONSTONE employs a multi-start random constructive heuristic to schedule vehicles efficiently for responding to e-events. In its current version, IRONSTONE utilizes the Tomtom API to estimate travel times between the vehicle locations and the e-events. Additionally, historical data is employed to estimate the time required for responding to each e-event. Once a specific e-event is addressed, the proposed approach regenerates the routes, considering the new registered events and traffic conditions. IRONSTONE is designed with the primary objective of minimizing the total response time. The objective function is structured to minimize the sum of the times required to respond to each e-event. This ensures a swift and effective response to emergency situations.
 
 ## Quick Start Guide
 
