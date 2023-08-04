@@ -3,7 +3,7 @@
 >IRONSTONE is an approach that analyzes real-time traffic data and generates a graph that represents the streets in a radius (e.g., 10 km) from the emergency event (i.e., e-event). Based on the generated graph, IRONSTONE uses a multi-start random constructive heuristic that schedules vehicles to respond to e-events. In its current version, IRONSTONE uses Tomtom API to estimate the travel time between the points where the vehicles are and the e-events. IRONSTONE also uses historical data to estimate the required time to respond to an e-event. When a specific e-event is responded to, the proposed approach is executed to regenerate the routes considering the new registered events and the traffic conditions. IRONSTONE is designed to minimize the total response time so the objective function minimizes the sum of the times required to respond to each e-event.
 
 <p align="center">
-  <img src="home.png" style="max-height: 160px"/>
+  <img src="Graphical+Abstract.png" style="max-height: 160px"/>
 </p>
 
 ## Overview
