@@ -12,6 +12,19 @@ This repository presents a quick start guide for IRONSTONE. IRONSTONE is an inno
 
 ## Quick Start Guide
 
+For ensuring reproducibility, IRONSTONE has been implemented as a Jupyter Notebook. To execute IRONSTONE successfully, the user must have a computer with Jupyter Notebook version Anaconda3 installed. Additionally, a Tomtom API Key is required, which can be obtained for free at www.tomtom.com.
+
+The following steps outline the execution process:
+
+1. Obtain the Tomtom API Key from www.tomtom.com for free.
+2. Open the Jupyter Notebook on your computer.
+3. Locate and open the "Generate Graph" Notebook.
+4. Run the cells in the "Generate Graph" file in the exact order they appear.
+5. After the "Generate Graph" process is completed, locate and open the "Heuristic" Notebook.
+6. Run the cells in the "Heuristic" file in the exact order they appear.
+
+By following these steps and running the cells as indicated, IRONSTONE will be executed effectively, allowing you to use its capabilities for analyzing real-time traffic data and generating optimal vehicle response routes for emergency events.
+
 SAMbA is an extension of [Apache Spark](https://spark.apache.org/), and as such, has all default characteristics of its baseline. In this way, most existing Spark codes, which depends only of Spark Core, are compatible with our implementation. So, in this quick start guide, we will show the only the methods that we implemented.
 
 In the Spark, everything starts with the creation of [```SparkContext```](https://spark.apache.org/docs/2.2.1/api/java/org/apache/spark/SparkContext.html). This class is used to begin the transformation process and can receive as parameter the [```SparkConf```](https://spark.apache.org/docs/2.2.1/api/java/org/apache/spark/SparkConf.html). The ```SparkConf``` is used to configure an execution and in the Spark, and now this class has new methods:
