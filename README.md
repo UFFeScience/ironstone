@@ -12,11 +12,11 @@ This repository presents a quick start guide for IRONSTONE. IRONSTONE is an inno
 
 ## Quick Start Guide
 
-For ensuring reproducibility, IRONSTONE has been implemented as a Jupyter Notebook. To execute IRONSTONE successfully, the user must have a computer with Jupyter Notebook version Anaconda3 installed. Additionally, a Tomtom API Key is required, which can be obtained for free at www.tomtom.com.
+For ensuring reproducibility, IRONSTONE has been implemented as a Jupyter Notebook. To execute IRONSTONE successfully, the user must have a computer with Jupyter Notebook version Anaconda3 installed. Additionally, a Tomtom API Key is required, which can be obtained for free in [Tom Tom](www.tomtom.com)  website.
 
 The following steps outline the execution process:
 
-1. Obtain the Tomtom API Key from www.tomtom.com for free.
+1. Obtain the Tomtom API Key from [Tom Tom](www.tomtom.com) for free.
 2. Open the Jupyter Notebook on your computer.
 3. Locate and open the "Generate Graph" Notebook.
 4. Run the cells in the "Generate Graph" file in the exact order they appear.
